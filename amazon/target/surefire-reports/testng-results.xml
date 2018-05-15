@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="221578" started-at="2018-05-10T17:16:48Z" finished-at="2018-05-10T17:20:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="221578" started-at="2018-05-10T17:16:48Z" finished-at="2018-05-10T17:20:30Z">
+      <class name="amazon.SearchValidate">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:amazon.SearchValidate@39f31e]" name="basePageNavigation" duration-ms="28408" started-at="2018-05-10T10:19:04Z" finished-at="2018-05-10T10:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- amazon.SearchValidate -->
+      <class name="amazon.ValidateTitle">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:amazon.ValidateTitle@15be6bb]" name="basePageNavigation" duration-ms="0" started-at="2018-05-10T10:20:24Z" finished-at="2018-05-10T10:20:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- amazon.ValidateTitle -->
+      <class name="amazon.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:amazon.HomePage@d992b2]" name="initialize" is-config="true" duration-ms="7446" started-at="2018-05-10T10:16:48Z" finished-at="2018-05-10T10:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:amazon.Navigation@a12c19]" name="initialize" is-config="true" duration-ms="30358" started-at="2018-05-10T10:16:56Z" finished-at="2018-05-10T10:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:amazon.SearchValidate@39f31e]" name="initialize" is-config="true" duration-ms="44836" started-at="2018-05-10T10:17:26Z" finished-at="2018-05-10T10:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:amazon.ValidateTitle@15be6bb]" name="initialize" is-config="true" duration-ms="52992" started-at="2018-05-10T10:18:11Z" finished-at="2018-05-10T10:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:amazon.HomePage@d992b2]" name="basePageNavigation" duration-ms="36398" started-at="2018-05-10T10:19:32Z" data-provider="getData" finished-at="2018-05-10T10:20:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asddff.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123424443]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:amazon.HomePage@d992b2]" name="basePageNavigation" duration-ms="15203" started-at="2018-05-10T10:20:09Z" data-provider="getData" finished-at="2018-05-10T10:20:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bnbhkbh.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gdttgggfd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon.HomePage@d992b2]" name="tearDown" is-config="true" duration-ms="2231" started-at="2018-05-10T10:20:24Z" finished-at="2018-05-10T10:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon.Navigation@a12c19]" name="tearDown" is-config="true" duration-ms="2455" started-at="2018-05-10T10:20:26Z" finished-at="2018-05-10T10:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon.SearchValidate@39f31e]" name="tearDown" is-config="true" duration-ms="684" started-at="2018-05-10T10:20:28Z" finished-at="2018-05-10T10:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:amazon.ValidateTitle@15be6bb]" name="tearDown" is-config="true" duration-ms="540" started-at="2018-05-10T10:20:29Z" finished-at="2018-05-10T10:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- amazon.HomePage -->
+      <class name="amazon.Navigation">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:amazon.Navigation@a12c19]" name="basePageNavigation" duration-ms="7" started-at="2018-05-10T10:19:04Z" finished-at="2018-05-10T10:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- amazon.Navigation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
